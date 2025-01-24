@@ -8,6 +8,7 @@ flowchart TD
     Compare -- Too Low --> Low[Display 'Too Low'] --> Guess
     Compare -- Too High --> High[Display 'Too High'] --> Guess
     Compare -- Correct --> EndGame[Congratulate user and end game]
+```
 ## Guessing Game Flowchart
 This flowchart describes the steps involved in the random guessing game where:
 - The game starts by generating a random number.
@@ -15,5 +16,6 @@ This flowchart describes the steps involved in the random guessing game where:
 - The program checks whether the input is valid and provides feedback: too high, too low, or correct.
 - If the guess is correct, the game ends with a congratulatory message.
 - If not, the process repeats until the user guesses correctly.
+
 
 
